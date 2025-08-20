@@ -1,8 +1,8 @@
 # AES-256 Key & IV Generator
 A professional Python application for generating cryptographically secure AES-256 encryption keys and initialization vectors (IVs) with multiple output formats suitable for various applications including penetration testing tools like msfvenom.
 
-[https://img.shields.io/badge/python-3.6%252B-blue]
-[https://img.shields.io/badge/license-MIT-green]
+![Python 3.6 Badge](https://img.shields.io/badge/python-3.6%252B-blue)
+![MIT-License Badge](https://img.shields.io/badge/license-MIT-green)
 
 ## Features
 Cryptographically Secure Generation: Uses os.urandom() for secure random number generation
