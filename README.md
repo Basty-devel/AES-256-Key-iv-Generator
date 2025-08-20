@@ -3,6 +3,7 @@ A professional Python application for generating cryptographically secure AES-25
 
 ![Python 3.6 Badge](https://img.shields.io/badge/python-3.6%252B-blue)
 ![MIT-License Badge](https://img.shields.io/badge/license-MIT-green)
+![Screenshot](ss_aes.png)
 
 ## Features
 Cryptographically Secure Generation: Uses os.urandom() for secure random number generation
