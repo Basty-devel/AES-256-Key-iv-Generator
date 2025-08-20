@@ -1,0 +1,10 @@
+# AES-256 Key & IV Generator Requirements
+# This application uses only standard library modules
+# No additional packages are required beyond Python 3.6+
+
+# Note: Tkinter is required but typically included with Python installations
+# If Tkinter is missing on your system, install it using your system package manager:
+# Ubuntu/Debian: sudo apt-get install python3-tk
+# CentOS/RHEL: sudo yum install python3-tk
+# macOS: Pre-installed with Python from python.org
+# Windows: Pre-installed with Python from python.org
